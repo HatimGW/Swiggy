@@ -5,13 +5,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import "../CSS/card.css";
 
 
-const NavbarC = () => {
+const NavbarC = ({size}) => {
   return (
     <Navbar style={{boxShadow:"0px 0px 4px orange",backgroundColor:"white"}}>
-    <Container>
+     <Container>
       <Navbar.Brand style={{color:'azure',fontFamily:"cursive",fontWeight:"bold"}} href="#home"><img alt='Logo' style={{maxWidth:"7rem"}} src={img}></img></Navbar.Brand>
       <span>
-      <i id='text' style={{color:"orange",cursor:"Pointer",fontSize:"25px"}} class="fa-solid fa-cart-shopping"></i>
+      <i id='text' style={{color:"orange",cursor:"Pointer",fontSize:"25px"}} class="fa-solid fa-cart-shopping"></i>{size}
       </span>
     </Container>
   </Navbar>
