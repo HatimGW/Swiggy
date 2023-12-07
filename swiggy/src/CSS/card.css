@@ -1,5 +1,11 @@
 #btn:hover{
 box-shadow: 0 0 10px green;
+background-color: green;
+color:white;
+}
+#btn{
+    background-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #text:hover{
  text-shadow: 0 0 10px orange;

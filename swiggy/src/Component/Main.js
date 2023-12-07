@@ -5,10 +5,10 @@ import {Container} from "react-bootstrap";
 
 const Main = ({add}) => {
   return (
-    <Container style={{position:"relative",top:"10px"}}>
+    <Container style={{marginTop:"5rem",position:"relative",top:"10px"}}>
     {Menu.map((item)=>{
         return (
-            <CardC add={add} item={item}/>
+            <CardC key={item.id} add={add} item={item}/>
         )
     })}
     </Container>
